@@ -17,8 +17,8 @@ How to run redis into docker:
 
 
 ````python
-from pymockache.async_.decorators import AsyncCachingWrapper
-from pymockache.async_.backends.redis import AsyncRedisCachingBackend
+from lib.pymockache import AsyncCachingWrapper
+from lib.pymockache.async_.backends import AsyncRedisCachingBackend
 import aiohttp
 import asyncio
 import logging
