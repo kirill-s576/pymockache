@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pymockache
-Version: 0.0.1
+Version: 0.0.2
 Summary: Caching for separated functions
 Home-page: UNKNOWN
 Author-email: kirill.s.job@gmail.com
@@ -29,8 +29,8 @@ How to run redis into docker:
 
 
 ````python
-from lib.async_.decorators import AsyncCachingWrapper
-from lib.async_.backends.redis import AsyncRedisCachingBackend
+from pymockache.async_.decorators import AsyncCachingWrapper
+from pymockache.async_.backends.redis import AsyncRedisCachingBackend
 import aiohttp
 import asyncio
 import logging

@@ -1,5 +1,4 @@
 README.md
-setup.cfg
 setup.py
 pymockache/__init__.py
 pymockache.egg-info/PKG-INFO
@@ -7,3 +6,8 @@ pymockache.egg-info/SOURCES.txt
 pymockache.egg-info/dependency_links.txt
 pymockache.egg-info/requires.txt
 pymockache.egg-info/top_level.txt
+pymockache/async_/__init__.py
+pymockache/async_/decorators.py
+pymockache/async_/backends/__init__.py
+pymockache/async_/backends/abstract.py
+pymockache/async_/backends/redis.py
