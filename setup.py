@@ -10,7 +10,7 @@ setuptools.setup(name='pymockache',
       description='Caching for separated functions',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      packages=setuptools.find_packages(where="."),
+      packages=setuptools.find_packages(where="lib"),
       install_requires=requirements,
       author_email='kirill.s.job@gmail.com',
       classifiers=[
