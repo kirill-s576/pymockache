@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pymockache/__init__.py
+pymockache.egg-info/PKG-INFO
+pymockache.egg-info/SOURCES.txt
+pymockache.egg-info/dependency_links.txt
+pymockache.egg-info/requires.txt
+pymockache.egg-info/top_level.txt
